@@ -27,18 +27,15 @@ public class BeeWorld extends World
     private void prepare()
     {
         Aranha aranha = new Aranha();
-        addObject(aranha,28,31);
+        addObject(aranha,32,33);
+        
         Abelha abelha = new Abelha();
-        addObject(abelha,24,185);
-        Mosca mosca = new Mosca();
-        addObject(mosca,30,272);
-        Mosca mosca2 = new Mosca();
-        addObject(mosca2,32,379);
-        Mosca mosca3 = new Mosca();
-        addObject(mosca3,87,326);
-        Mosca mosca4 = new Mosca();
-        addObject(mosca4,154,268);
-        Mosca mosca5 = new Mosca();
-        addObject(mosca5,151,380);
+        addObject(abelha,45,152);
+        
+        for (int qtd=0;qtd<20;qtd++){
+            int posX = Greenfoot.getRandomNumber(800); 
+            int posY = Greenfoot.getRandomNumber(600);
+            int vel = Greenfoot.getRandomNumber(360)+1; addObject(new Mosca(vel,rot ),posX,posY);
+        }
     }
 }
