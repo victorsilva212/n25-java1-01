@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.aula05;
+
+public class Exemplo05 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Digite um valor entre 1 e 5: ");
+	}
+
+}
