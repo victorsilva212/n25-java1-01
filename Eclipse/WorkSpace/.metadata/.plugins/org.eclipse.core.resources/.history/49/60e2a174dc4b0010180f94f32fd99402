@@ -1,0 +1,16 @@
+package br.com.senaisp.bauru.aula05;
+
+import java.util.Scanner;
+
+public class Exercício01 {
+
+	public static void main(String[] args) {
+		//Usando o scanner para ler um arquivo texto
+		Scanner sc = new Scanner(Exercício01.class.getResourceAsStream("arquivo.txt"));
+		String linha = sc.nextLine(); //pegando cabeçalho
+		
+		while(sc.hasNextLine()) {
+
+	}
+	}
+}
