@@ -9,7 +9,7 @@ public class Exemplo08 {
 		//Utilizando uma estrutura while
 		String res="";
 		do {
-		System.out.println("Digite S ou N:")
+		System.out.println("Digite S ou N:");
 		res = sc.nextLine();
 	 } while (!res.equals("S") && !res.equals("N"));
      System.out.println("Saiu!");

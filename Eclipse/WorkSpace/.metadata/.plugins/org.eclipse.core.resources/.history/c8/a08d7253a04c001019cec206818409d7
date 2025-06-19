@@ -1,0 +1,12 @@
+package br.com.senaisp.bauru.aula06;
+
+public class Exemplo03 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//Criando uma matriz
+		//Cinema com 5 fileiras e 9 cadeiras por fileira
+		
+	}
+
+}

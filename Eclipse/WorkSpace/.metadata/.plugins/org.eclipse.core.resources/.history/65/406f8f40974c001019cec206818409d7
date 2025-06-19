@@ -1,0 +1,10 @@
+package br.com.senaisp.bauru.aula06;
+
+public class Exemplo01 {
+
+	public static void main(String[] args) {
+		//Definindo um vetor de flores
+		String[] flores = new String[4];
+	}
+
+}
