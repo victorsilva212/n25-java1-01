@@ -1,0 +1,9 @@
+package br.com.senaisp.bauru.aula07;
+
+public class Carta {
+	public static final String[] NAIPE= {""};
+	private String naipe;
+	private String numero;
+	private  int valor;
+	
+}
