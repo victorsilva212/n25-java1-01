@@ -44,5 +44,27 @@ public class Carta {
 
 	private void setValor(int valor) {
 		this.valor = valor;
+}
+	
+	@Override
+	public String toString() {
+		/*
+ 1234567  
+┌─────┐
+│10   │
+│  *  │
+│   10│
+└─────┘
+		 */
+		String ret = "┌─────┐\n"
+				   + "│#   │\n"
+				   + "│  !  │\n"
+				   + "│   #│\n"
+				   + "└─────┘\n";
+		String ap = (getNumero().equals("10") ? "" : " ");
+		ret = ret.replaceFirst("#", getNumero()+(getNumero().equals("10") ? "" : " "));
+		ret = ret.replaceAll("!", getNaipe());
+		ret = ret.replaceFirst("#", getNumero()+(getNumero().equals("10") ? "" : " "));
+		return ret;
 	}
 }
