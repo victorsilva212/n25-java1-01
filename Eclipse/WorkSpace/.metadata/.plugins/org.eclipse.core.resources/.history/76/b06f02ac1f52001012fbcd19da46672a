@@ -1,0 +1,16 @@
+package br.com.senaisp.bauru.aula07;
+
+import javax.swing.JDialog;
+import javax.swing.JOptionPane;
+
+public class DesenhoTeste {
+
+	public static void main(String[] args) {
+		JOptionPane pnl = new JOptionPane();	
+		JDialog dlg = pnl.createDialog("Desenhos em Java");
+	
+	}
+	
+	
+
+}
